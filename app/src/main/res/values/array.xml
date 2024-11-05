@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Array for weight units -->
+    <string-array name="weight_unit_array">
+        <item>Kilograms</item>
+        <item>Pounds</item>
+    </string-array>
+
+    <!-- Array for height units -->
+    <string-array name="height_unit_array">
+        <item>Centimeters</item>
+        <item>Inches</item>
+    </string-array>
+</resources>

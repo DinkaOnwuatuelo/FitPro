@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/light_gray">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:padding="15dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/imageView_logo"
+            android:layout_width="410dp"
+            android:layout_height="401dp"
+            android:maxHeight="50dp"
+            app:srcCompat="@drawable/image"
+            android:maxWidth="180dp"
+            android:adjustViewBounds="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_main_head"
+            android:layout_marginTop="30dp"
+            android:text="Welcome to Fitpro"
+            android:textAlignment="center"
+            android:layout_below="@+id/imageView_logo"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_login"
+            android:text="Login"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/textView_main_head"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_register"
+            android:text="Register"
+            android:layout_marginTop="70dp"
+            android:layout_below="@+id/textView_main_head"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp" />
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+</ScrollView>
